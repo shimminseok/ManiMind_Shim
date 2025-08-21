@@ -160,7 +160,6 @@ public class AngerEmotion : BaseEmotion, IEmotionOnAttack
             if (allies.Count > 0)
             {
                 target = allies[Random.Range(0, allies.Count)];
-                Debug.Log("아군 공격함!");
             }
         }
     }
